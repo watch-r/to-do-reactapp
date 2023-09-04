@@ -1,7 +1,7 @@
 import React, { FormEvent, useRef } from "react";
 import styled from "styled-components";
-import { AiOutlineCheckCircle } from "react-icons/Ai";
-import { BiBookAdd } from "react-icons/Bi";
+import { AiOutlineCheckCircle } from "react-icons/all";
+import { BiBookAdd } from "react-icons/all";
 import { FieldValues, useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
